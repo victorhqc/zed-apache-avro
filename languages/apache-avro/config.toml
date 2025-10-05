@@ -1,0 +1,8 @@
+name = "Apache Avro (IDL)"
+grammar = "apache_avro"
+path_suffixes = ["avdl"]
+line_comments = ["// "]
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+]
+tab_size = 2
